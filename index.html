@@ -16,6 +16,7 @@
         <h1>Tiny Sudoku ✿</h1>
         <p class="tag">Fill every row, column and box with 1-9.</p>
       </header>
+
       <div class="levels" role="group" aria-label="Difficulty">
         <button type="button" data-level="easy" aria-pressed="true">
           Easy
@@ -27,10 +28,13 @@
           Hard
         </button>
       </div>
+
       <div class="bar">
         <div class="hearts" id="hearts" aria-label="Lives left">💗💗💗</div>
         <div id="timer" aria-label="Time">0:00</div>
       </div>
+
+      <div id="grid" role="grid" aria-label="Sudoku board"></div>
     </main>
   </body>
 </html>

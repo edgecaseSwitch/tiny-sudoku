@@ -67,3 +67,14 @@ h1 {margin: 0; font-size: 2rem; font-weight: 600;}
 .hearts {font-size: 1.35rem; letter-spacing: 2px;}
 .hearts .lost {filter: greyscale(1) opacity: .3;}
 #timer {font-variant-numeric: tabular-nums; color: var(--ink-soft);}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 100%;
+    aspect-ratio: 1;
+    border: 3px solid var(--box-line);
+    border-radius: 22px;
+    overflow: hidden;
+    background: #fff;
+}
