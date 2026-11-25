@@ -39,3 +39,20 @@ main {
 header {text-align: center; margin-bottom: 14px;}
 h1 {margin: 0; font-size: 2rem; font-weight: 600;}
 .tag {margin: 2px 0 0; color: var(--ink-soft); font-size: .95rem;}
+
+.levels {display: flex; gap: 8px; justify-content: center; margin-bottom: 14px;}
+.levels button {
+    font: inherit;
+    font-size: .9rem;
+    border: 2px solid var(--line);
+    background: transparent;
+    color: var(--ink-soft);
+    padding: 5px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.levels button[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--card);
+    color: #fff;
+}
