@@ -1,0 +1,16 @@
+:root {
+    --bg: #ece6ff;
+    --card: #fffdfb;
+    --ink: #3a2d5c;
+    --ink-soft: #8a7fb0;
+    --line: #d9d0f5;
+    --box-line: #8a7fb0;
+    --peer: #e3f6ee;
+    --same: #ffe49a;
+    --select: #ffc2d9;
+    --accent: #ff7aa8;
+    --wrong-bg: #ffd6dc;
+    --wrong-ink: #d6355c;
+    --given: #3a2d5c;
+    --entered: #6a4fd6;
+}
