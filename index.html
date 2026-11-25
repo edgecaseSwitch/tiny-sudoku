@@ -1,23 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tiny Sudoku</title>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <main>
-    <header>
-      <h1>Tiny Sudoku ✿</h1>
-      <p class="tag">Fill every row, column and box with 1-9.</p>
-    </header>
-    <div class="levels" role="group" aria-label="Difficulty">
-      <button type="button" data-level="easy" aria-pressed="true">Easy</button>
-      <button type="button" data-level="Medium" aria-pressed="true">Medium</button>
-      <button type="button" data-level="Hard" aria-pressed="true">Hard</button>
-    </div>
-  </main>
-</body>
-</html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tiny Sudoku</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Tiny Sudoku ✿</h1>
+        <p class="tag">Fill every row, column and box with 1-9.</p>
+      </header>
+      <div class="levels" role="group" aria-label="Difficulty">
+        <button type="button" data-level="easy" aria-pressed="true">
+          Easy
+        </button>
+        <button type="button" data-level="Medium" aria-pressed="true">
+          Medium
+        </button>
+        <button type="button" data-level="Hard" aria-pressed="true">
+          Hard
+        </button>
+      </div>
+      <div class="bar">
+        <div class="hearts" id="hearts" aria-label="Lives left">💗💗💗</div>
+        <div id="timer" aria-label="Time">0:00</div>
+      </div>
+    </main>
+  </body>
+</html>
