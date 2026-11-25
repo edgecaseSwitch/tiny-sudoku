@@ -14,3 +14,16 @@
     --given: #3a2d5c;
     --entered: #6a4fd6;
 }
+
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Fredroka", "Trebuchet MS", system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 12px 40px;
+}
